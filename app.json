@@ -1,0 +1,26 @@
+{
+  "id": "2e0ef2b6-3992-47cb-a561-d470f980405a",
+  "name": "StrategyPattern",
+  "publisher": "MUNDOBC",
+  "version": "1.0.0.0",
+  "brief": "Strategy Pattern Sample with enums and Setup",
+  "description": "Strategy pattern example with enums and Setup Configuration. Prove of concept of Software design patterns in AL",
+  "privacyStatement": "https://www.mundobc.com/",
+  "EULA": "https://www.mundobc.com/",
+  "help": "https://www.mundobc.com/",
+  "url": "https://www.mundobc.com/",
+  "logo": "res/logo_mbc.png",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "18.0.0.0",
+  "application": "18.0.0.0",
+  "idRanges": [
+    {
+      "from": 50200,
+      "to": 50249
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://www.mundobc.com",
+  "showMyCode": true,
+  "runtime": "7.0"
+}

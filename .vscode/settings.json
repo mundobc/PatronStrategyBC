@@ -1,0 +1,14 @@
+{
+    "al.enableCodeAnalysis": true,
+    "al.codeAnalyzers": [
+        //"${AppSourceCop}", //Descomentar para la implementación de extensiones en el cloud
+        "${CodeCop}", 
+        "${PerTenantExtensionCop}", 
+        "${UICop}"
+    ],
+    //CRS Waldo Extension
+    "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.OnSaveAlFileAction": "Rename",
+}
