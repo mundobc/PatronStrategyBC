@@ -13,7 +13,7 @@ page 50200 "Strategy Demo"
                 field("Strategy Implementation"; Context.consumptionStrategyEnum)
                 {
                     ApplicationArea = All;
-
+                    ToolTip = 'Select the strategy method implementation to calculate consumption.';
                 }
             }
         }
@@ -26,6 +26,8 @@ page 50200 "Strategy Demo"
             action("Calculate consumption")
             {
                 ApplicationArea = All;
+                Image = Calculate;
+                ToolTip = 'Calculate the consumption based on the method selected.';
 
                 trigger OnAction()
                 begin
